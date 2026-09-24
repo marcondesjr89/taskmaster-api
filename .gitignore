@@ -1,0 +1,16 @@
+# Compilados do Java
+bin/
+target/
+*.class
+
+# Configurações de IDE (IntelliJ / Eclipse / VS Code)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs e arquivos temporários
+*.log
+.DS_Store
