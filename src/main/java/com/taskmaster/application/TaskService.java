@@ -2,6 +2,8 @@ package com.taskmaster.application;
 
 import com.taskmaster.domain.Task;
 
+import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,6 +13,7 @@ import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Service
 public class TaskService {
 
     private final Map<String, Task> taskRepository = new ConcurrentHashMap<>();
